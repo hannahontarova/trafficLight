@@ -1,0 +1,72 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+.container{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.trafficLight{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.display{
+    border: solid 2px grey;
+    width: 17em;
+    height: 25em;
+    background: darkgrey;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+.round{
+    width: 8em;
+    height: 8em;
+    border: 2px solid black;
+    border-radius: 50%;
+    background: radial-gradient(white, #9e9897);
+    box-shadow: 0 5px 0 rgba(0,0,0,0.5);
+}
+.lights{
+    margin: 2% 0;
+    display: flex;
+    justify-content: space-between;
+}
+.btnGreen{
+    background: green;
+    color: rgb(0, 173, 0);
+    text-transform: uppercase;
+    font-weight: bold;
+    border: none;
+    width: 30%;
+    height: 3em;
+    margin-right: 1%;
+    text-align: center;
+    box-shadow: 0 0 6px rgba(0,0,0,0.5);
+}
+.btnYellow{
+    background: yellow;
+    color: rgb(207, 207, 0);
+    text-transform: uppercase;
+    font-weight: bold;
+    border: none;
+    width: 30%;
+    height: 3em;
+    margin-right: 1%;
+    box-shadow: 0 0 6px rgba(0,0,0,0.5);
+}
+.btnRed{
+    background: red;
+    color: rgb(255, 119, 119);
+    text-transform: uppercase;
+    font-weight: bold;
+    width: 30%;
+    height: 3em;
+    border: none;
+    box-shadow: 0 0 6px rgba(0,0,0,0.5);
+}
